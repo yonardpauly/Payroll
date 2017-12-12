@@ -1,0 +1,62 @@
+/*--------------------------------------------------\
+|               |               | login.css         |
+|---------------------------------------------------|
+| For use with:                                     |
+| Web-ERP - http://web-erp.sourceforge.net          |
+| by Logic Works Ltd                                |
+|---------------------------------------------------|
+| Developer:                                        |
+| Shane Barnaby
+| BrainX                                     |
+|                                                   |
+|---------------------------------------------------|
+| Note:                                             |
+| Changes can be made to this CSS that will be      |
+| reflected on the login screen.                    |
+|                                                   |
+|                                                   |
+\--------------------------------------------------*/
+
+<
+<!-- \$Revision: 1.5 $ -->
+
+
+body {
+	background: "#ffffff";
+	font-family: arial, verdana;
+	font-size: 10px;
+}
+
+.loginText {
+	font-family: arial, verdana;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.borderBox{
+	background-color: #555555;
+}
+
+.middleBar{
+	background-color: #367CB5;
+}
+
+.logoBackground{
+	background-color: #FFFFFF;
+}
+
+.mainTable{
+	background-color: #285B86;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}

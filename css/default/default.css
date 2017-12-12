@@ -1,0 +1,392 @@
+/*--------------------------------------------------\
+|               |               | default.css       |
+|---------------------------------------------------|
+| For use with:                                     |
+| Web-ERP - http://web-erp.sourceforge.net          |
+| by Logic Works Ltd                                |
+|---------------------------------------------------|
+| Developer:                                        |
+| Shane Barnaby                                     |
+| Steve Kaill                                       |
+|---------------------------------------------------|
+| Note:                                             |
+| Changes can be made to this CSS that will be      |
+| reflected throughout Web-ERP.                     |
+|
+\--------------------------------------------------*/
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #CCCCDD;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+/*links before selection */
+a {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*links on any screen when mouse is hovering over them */
+a:hover {
+	color: #2D8628;
+	text-decoration: underline;
+}
+
+table {
+  background-color: #587BA6;
+}
+
+/*table detail items default format */
+td {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+
+}
+
+#topMenu {
+	width: 100%;
+	color: #000000;
+	background-color: #E2E9EB;
+	border: none;
+	border-bottom: 1px solid #999999;
+}
+
+#trim {
+	background: "#CCCCCC";
+}
+
+#page {
+	width: 100%;
+	color: #000000;
+	font-size: 12px;
+	white-space: nowrap;
+	border: none;
+}
+
+#menuImg {
+	vertical-align: top;
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+}
+
+#mainMenu {
+	width: 100%;
+	color: #000000;
+	background-color: #E3EBE2;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.login {
+	background-color: #FFFFFF;
+	border: none;
+}
+
+.callout_main {
+	font-family: Verdana, Arial, Helvetica;
+	background-color: #FFFFFF;
+	border: none;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_page {
+	background-color: #FFFFFF;
+	border: none;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+ 	font-size: 12px;
+}
+
+/* Main page heading with quick menu within */
+.quick_menu {
+	background-color: #588BB6;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+ 	color: #000000;
+	border-top: 2px #AAAAAA solid;
+	border-left: 2px #AAAAAA solid;
+	border-right: 2px #FFFFFF solid;
+	border-bottom: 4px #FFFFFF solid;
+	text-align: right;
+	/* position: relative;
+	top: 3px; */
+}
+
+/*The main page heading left part before quick menu */
+.quick_menu_left {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	border: 0px;
+	white-space: nowrap;
+	margin: 2px;
+	padding: 2px;
+	color: #FFFFFF;
+  text-align: left;
+}
+
+/*the Select Customer / Item / Supplier Menu tabs */
+.quick_menu_tabs {
+	background-color: #FFFFFF;
+	white-space: nowrap;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+/*the Select Customer / Item / Supplier Menu tabs */
+.system_menu_tabs {
+	background-color: #FFFFFF;
+	white-space: nowrap;
+	border: none;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.system_menu_tabs a {
+	font-size: 12px;
+	color: #000000;
+}
+
+.system_menu_tabs a:hover {
+	font-size: 12px;
+  color: #000000;
+}
+
+.main_area {
+	border: 2px inset #FFFFFF;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.main_menu {
+	background-color: #40FC40;
+	font-size: 14px;
+	border-top: 1px #AAAAAA solid;
+	border-bottom: 1px #AAAAAA solid;
+	font-weight: normal;
+	width: 100%;
+}
+
+.main_menu table {
+	border: 0px;
+	width: 100%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.main_menu_unselected {
+	background-color: #40fc40;
+	border-left: 1px #AAAAAA solid;
+	border-right: 1px #AAAAAA solid;
+	border-bottom: 0px;
+	font-weight: normal;
+	position: relative;
+	top: 3px;
+	text-align: center;
+	white-space: nowrap;
+
+}
+
+.main_menu_selected {
+	background-color: #FFFFFF;
+	border-top: 1px #AAAAAA solid;
+	border-left: 1px #AAAAAA solid;
+	border-right: 1px #AAAAAA solid;
+	border-bottom: 0px;
+	font-weight: normal;
+	position: relative;
+	top: 3px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+span.main_menu_nolink {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #777777;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.main_menu a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.main_menu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.menu_group_img {
+	background-color: #CCCCCC;
+	text-align: center;
+	width: 90px;
+	position: relative;
+	left: 3px;
+}
+
+.menu_group_img img{
+	position: relative;
+	top: 10px;
+}
+
+.menu_group_area {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 14px;
+  border: 2px inset #FFFFFF;
+	color: #cc6600;
+	background-color: #CCCCCC;
+	font-weight: bold;
+}
+
+.blank_area table {
+	border: 0px;
+	width: 100%;
+}
+
+.menu_group_headers {
+  border: 2px outset #AAAAAA;
+  width: 25%;
+}
+
+.menu_group_headers_text {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.menu_group_items {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding: 15px;
+	border-top: 1px #AAAAAA solid;
+	border-left: 1px #AAAAAA solid;
+	border-right: 1px #FFFFFF solid;
+	border-bottom: 1px #FFFFFF solid;
+}
+
+.menu_group_item {
+	background-color: #FFFFFF;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+span.menu_group_nolink {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	color: #777777;
+	text-decoration: none;
+}
+
+.menu_group_item a {
+}
+
+.menu_group_items a:hover {
+	color: #0000aa;
+	text-decoration: underline;
+}
+
+#footer {
+	position: relative;
+	bottom: -3px;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica;
+	color: #CCCCCC;
+	font-weight: normal;
+	font-size: 9px;
+}
+.legal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+}
+
+.box1 {
+	border-color: #CCCCCC #333333 #333333 #CCCCCC;
+	border-width: medium;
+	border-style: ridge;
+}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #336699;
+}
+
+.dingbat {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #99CC99;
+	color: #006666;
+	font-weight: bolder;
+	font-size: medium;
+}
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+
+.tableheader {
+	font-weight: normal;
+	background-color: #800000;
+	color: #FFFFFF;
+}
+
+.HelpTableheader {
+	font-weight: bold;
+	background-color: #800000;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.OsRow {
+	background-color: #234567;
+	color: #FFFFFF;
+}
